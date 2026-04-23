@@ -1,6 +1,6 @@
 import React from 'react'
 // import studentA from "../../assets/studentA.png"
-import mohitimage from "../../assets/mohitimage.jpeg"
+import ritikimage from "../../assets/ritikimage.jpeg"
 import TextChange from '../TextChange'
 
 
@@ -15,7 +15,7 @@ const Home = () => {
                 <a href='https://wa.me/7428612412'target='blank'>
                 <button className='mt-1 md:mt-10 text-white py-2 px-6 text-sm md:text-lg md:px-7 opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] mb-[20px]'>Contact Me</button></a>
             </div>
-            <div className='w-full md:w-1/2 flex items-end justify-center relative z-20 md:ml-16'><img className='w-[60%] md:w-[70%] lg:w-[85%] max-w-xs md:max-w-md lg:max-w-lg h-auto aspect-square object-cover animate-updown rounded-full' src={mohitimage} alt="" /></div>
+            <div className='w-full md:w-1/2 flex items-end justify-center relative z-20 md:ml-16'><img className='w-[60%] md:w-[70%] lg:w-[85%] max-w-xs md:max-w-md lg:max-w-lg h-auto aspect-square object-cover animate-updown rounded-full' src={ritikimage} alt="" /></div>
         </div>
     )
 }
