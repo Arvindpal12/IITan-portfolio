@@ -23,13 +23,10 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  📊 Data Analyst
+                  📊 Team Leader 
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  A Data Analyst collects, cleans, and analyzes data to identify
-                  patterns and insights. They use tools like Excel, SQL, and
-                  Power BI to create reports and dashboards that help businesses
-                  make data-driven decisions.
+                 I am committed to contributing my expertise to an organization where leadership, accountability, and continuous improvement are valued.
                 </p>
               </span>
             </div>
@@ -37,13 +34,10 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  📈 Business Analyst
+                  📈Project Coordination & Execution
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  A Business Analyst analyzes business processes and data to
-                  identify problems and opportunities for improvement. They work
-                  with data insights to support better strategies and improve
-                  business performance.
+                  I am experienced in coordinating with government bodies, vendors, and internal teams, making me effective in both structured and dynamic work environments.
                 </p>
               </span>
             </div>
@@ -51,20 +45,17 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  📑 MIS Executive
+                  📑CSC Operations & Technical Expertise
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  An MIS Executive manages and maintains business data and
-                  reports using tools like Microsoft Excel. They create daily,
-                  weekly, and monthly reports to help management monitor
-                  business performance.
+                 My experience managing CSC (Common Service Center) operations has given me a deep understanding of citizen-facing service delivery, digital workflows, and operational compliance.
                 </p>
               </span>
             </div>
             <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
+              <IoArrowForward size={30} className="mt-6" />
               <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
+                {/* <h1 className="text-xl md:text-2xl font-semibold leading-normal">
                   📊 Data Visualization Analyst
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
@@ -72,7 +63,7 @@ const About = () => {
                   through charts, dashboards, and visual reports. They use tools
                   like Power BI or other visualization tools to transform
                   complex data into easy-to-understand visuals.
-                </p>
+                </p> */}
                 <div className="text-sm pt-4 flex justify-start">
                   <a
                     href="/mohitcv-2.pdf"
