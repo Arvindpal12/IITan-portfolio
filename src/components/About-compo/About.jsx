@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="text-white md:flex overflow-hidden item-center md:flex-wrap md:justify-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
+      className="text-white md:flex overflow-hidden item-center md:flex-wrap md:justify-center bg-[#0e1946] shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
     >
       <div>
         <h2 className="text-2xl md:text-4xl font-bold text-left">About</h2>
@@ -23,7 +23,7 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  📊 Team Leader 
+                 Team Leadership & Management
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                  I am committed to contributing my expertise to an organization where leadership, accountability, and continuous improvement are valued.
@@ -34,7 +34,7 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  📈Project Coordination & Execution
+                  Project Coordination & Execution
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                   I am experienced in coordinating with government bodies, vendors, and internal teams, making me effective in both structured and dynamic work environments.
@@ -45,7 +45,7 @@ const About = () => {
               <IoArrowForward size={30} className="mt-1" />
               <span className="w-96">
                 <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  📑CSC Operations & Technical Expertise
+                  CSC Operations & Technical Expertise
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
                  My experience managing CSC (Common Service Center) operations has given me a deep understanding of citizen-facing service delivery, digital workflows, and operational compliance.
