@@ -26,8 +26,8 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="p-10 md:p-24 text-white bg-[#ffffe3]">
-      <h1 className="text-2xl md:text-4xl text-white font-bold"> Projects</h1>
+    <div id="projects" className="p-10 md:p-24 text-white bg-[#F7F7F7]">
+      <h1 className="text-2xl md:text-4xl text-black font-bold"> Projects</h1>
       <div className="py-12 px-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 justify-items-center">
         <ProjectCard
           title="

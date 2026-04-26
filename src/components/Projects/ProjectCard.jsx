@@ -3,7 +3,7 @@ import aboutImg from "../../assets/avtar6.webp"
 
 const ProjectCard = ({ title, main, onDemoClick, onSourceClick }) => {
   return (
-    <div className='p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
+    <div className='p-3 md:p-6 flex flex-col w-80 bg-[#0e1946] shadow-xl shadow-slate-900 rounded-2xl transition-transform duration-200 ease-in-out hover:scale-125'>
       <img className="p-4" src={aboutImg} alt="" />
       <h3 className='px-4 text-xl md:text-2xl font-bold leading-normal'>
         {title}
