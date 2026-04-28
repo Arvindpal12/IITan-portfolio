@@ -1,10 +1,8 @@
-# Task Progress: Create GitHub repo mohit-portfolio
+# Fix: Show front images according to card names
 
-## Pending Steps:
-- [x] Install GitHub CLI ✅
-- [x] cd my-portfolio; rm -rf .git (clean); git init ✅
-- [x] git add . ; git commit -m "Initial commit: React portfolio" ✅
-- [x] Edit package.json (name to "mohit-portfolio") ✅
-- [x] Edit README.md (custom description) ✅
-- [x] gh repo create mohit-portfolio --public --source=. --remote=origin --push ✅
-- [x] Verify repo at https://github.com/Arvindpal12/mohit-portfolio ✅
+- [x] Read relevant files (ProjectCard.jsx, ProjectGalleryModal.jsx, Projects.jsx, projectsData.js)
+- [x] Fix ProjectCard.jsx: use `image` prop instead of broken `uthanproject.jpg` reference
+- [x] Fix ProjectGalleryModal.jsx: use `photo` variable instead of broken `chaild-project.jpg` reference in thumbnail strip
+- [x] Verify in browser
+
+
