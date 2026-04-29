@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md"
 import { FaGithub } from 'react-icons/fa'
 import { CiLinkedin } from "react-icons/ci"
 import { HiPhone } from 'react-icons/hi'
-import { FaTwitter } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -19,21 +19,21 @@ const Footer = () => {
                     mohittt1642002@gmail.com 
                 </li> */}
              <li className='flex gap-1 items-center'>
-                    <MdOutlineEmail size={30}/><a href='mailto:mohittt1642002@gmail.com' target='_blank' rel='noopener noreferrer'>mohittt1642002@gmail.com</a>
+                    <MdOutlineEmail size={30}/><a href='mailto: anjgovltd@gmail.com' target='_blank' rel='noopener noreferrer'> anjgovltd@gmail.com</a>
                     </li>
              
                 <li className='flex gap-1 items-center'>
-                    <CiLinkedin size={30} /><a href='https://www.linkedin.com/in/mohit-kumar-15743a352' target='_blank' rel='noopener noreferrer'>
-                   www.linkedin.com/in/mohit-kumar-15743a352 </a>
+                    <CiLinkedin size={30} /><a href='https://www.linkedin.com/in/ritik-roshan-jha-a44779398' target='_blank' rel='noopener noreferrer'>
+                  www.linkedin.com/in/ritik-roshan-jha-a44779398 </a>
                 </li>
                 <li className='flex gap-1 items-center'>
-                    <FaGithub size={30} /><a href='https://github.com/Mohit0416' target='_blank' rel='noopener noreferrer'>
-                    https://github.com/Mohit0416</a>
+                    <FaFacebook size={30} /><a href='https://www.facebook.com/share/1JLnXd6Zgf/' target='_blank' rel='noopener noreferrer'>
+                    www.facebook.com/Ritik.jha</a>
                 </li>
                 <a href=''target='_blank' rel=''>
                 <li className='flex gap-2 items-center'>
                     <HiPhone size={25} /> 
-                    7428612412
+                    97736 57224
                 </li></a>
                 {/* <li className='flex gap-2 items-center'>
                     <FaTwitter size={25} />

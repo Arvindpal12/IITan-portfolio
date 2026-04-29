@@ -66,11 +66,11 @@ const About = () => {
                 </p> */}
                 <div className="text-sm pt-4 flex justify-start">
                   <a
-                    href="/mohitcv-2.pdf"
-                    download="Mohit-Resume.pdf"
+                    href="/Ritik Resume 5545.docx"
+                    download="/Ritik Resume 5545.docx"
                     className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold text-base rounded-lg shadow-lg shadow-blue-900/50 hover:from-blue-500 hover:to-purple-500 hover:shadow-xl hover:scale-105 transition-all duration-300 hover:-translate-y-1 group"
                   >
-                    Download Resume
+                    Download Cv
                     <IoArrowForward
                       className="ml-2 group-hover:translate-x-2 transition-transform duration-300"
                       size={20}
