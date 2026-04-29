@@ -1,8 +1,9 @@
-# Fix: Show front images according to card names
+# Task: Add Projects Section Heading
 
-- [x] Read relevant files (ProjectCard.jsx, ProjectGalleryModal.jsx, Projects.jsx, projectsData.js)
-- [x] Fix ProjectCard.jsx: use `image` prop instead of broken `uthanproject.jpg` reference
-- [x] Fix ProjectGalleryModal.jsx: use `photo` variable instead of broken `chaild-project.jpg` reference in thumbnail strip
-- [x] Verify in browser
+## Steps:
+1. [x] Create TODO.md and confirm plan
+2. [x] Edit Projects.jsx to add 'Projects' heading (responsive)
+3. [x] Verify in browser
+4. [x] Complete task
 
-
+**All steps completed.**

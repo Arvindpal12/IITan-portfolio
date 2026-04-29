@@ -4,7 +4,7 @@ import ProjectGalleryModal from "./ProjectGalleryModal";
 import projectsData from "../../data/projectsData";
 
 /**
- * Projects Section — Field Work @ BVD
+ * Projects Section — Featured Projects
  * -----------------------------------
  * Showcases 3 real field projects in a responsive card grid.
  * Each card opens a photo gallery modal with grid + fullscreen lightbox.
@@ -16,6 +16,7 @@ import projectsData from "../../data/projectsData";
  *
  * The section is fully self-contained and uses only Tailwind CSS
  * for styling — no external libraries required.
+ * Fully responsive heading added.
  */
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -40,18 +41,18 @@ const Projects = () => {
       <div className="mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          {/* Date Range Label */}
-          <span className="inline-block text-sm md:text-base font-medium text-[#455697] tracking-wider uppercase mb-2">
-            Dec 2024 – Apr 2026
-          </span>
-
-          {/* Main Heading */}
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0e1946]">
-            Field Work – BVD
+          {/* Main Section Heading */}
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0e1946] mb-4">
+            Projects
           </h2>
 
+          {/* Subtitle / Date Range */}
+          <span className="inline-block text-sm md:text-base font-medium text-[#455697] tracking-wider uppercase mb-2">
+            Dec 2024 – Apr 2026 | Field Work – BVD
+          </span>
+
           {/* Decorative underline */}
-          <div className="mt-4 mx-auto h-1 w-16 rounded-full bg-[#455697]" />
+          <div className="mt-4 mx-auto h-1 w-24 rounded-full bg-[#455697]" />
         </div>
 
         {/* Projects Grid */}
