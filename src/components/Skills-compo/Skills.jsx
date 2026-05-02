@@ -63,10 +63,10 @@ const Skills = () => {
             </p>
             <ul className="text-white/90 text-sm sm:text-base md:text-lg lg:text-xl space-y-1 sm:space-y-1 font-medium">
               <p>
-                Overseeing the day-to-day operations of a Common Service Centre,
-                including managing staff, ensuring service delivery, maintaining
-                records, handling citizen queries, and ensuring smooth
-                functioning of government and digital services.
+                we handle it all under one roof. Our trained and experienced
+                team ensures fast, accurate, and hassle-free service for every
+                individual who walks through our door. We are committed to
+                making digital India a reality by providing reliable.
               </p>
             </ul>
           </div>
@@ -112,12 +112,11 @@ const Skills = () => {
                 Qualification
               </h2>
               <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-tight font-bold mb-2">
-                Graduation :- B.TECH (CSE),LALIT NARAYN MITHILA UNIVERSITY, BIHAR
+                Graduation :- B.TECH (CSE),LALIT NARAYN MITHILA UNIVERSITY,
+                BIHAR
               </p>
               <ul className="text-xs sm:text-sm md:text-base lg:text-lg space-y-1">
-                <li>
-                  12th-(BOARD OF SECONDARY AND HIGHER EDUCATION)
-                </li>
+                <li>12th-(BOARD OF SECONDARY AND HIGHER EDUCATION)</li>
                 <li>10th-(HARYANA BOARD OF SCHOOL EDUCATION)</li>
               </ul>
             </div>
