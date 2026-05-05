@@ -1,1 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@keyframes slideDownDelay {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-slideDownDelay {
+  animation: slideDownDelay 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s infinite;
+}
+
+/* Main content padding for fixed navbar */
+html {
+  scroll-behavior: smooth;
+}
+
+body > div:first-child {
+  padding-top: 90px;
+}

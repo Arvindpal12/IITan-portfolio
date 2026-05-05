@@ -1,9 +1,16 @@
-# Task: Add Projects Section Heading
+# Navbar Smooth Scroll Fix - COMPLETE
 
-## Steps:
-1. [x] Create TODO.md and confirm plan
-2. [x] Edit Projects.jsx to add 'Projects' heading (responsive)
-3. [x] Verify in browser
-4. [x] Complete task
+**Fixed Issues:**
+- Smooth scrolling to sections with proper offset (full section visible, not half-hidden under navbar)
+- Added Home link as requested
+- Mobile menu improvements (positioning, auto-close)
+- Navbar now fixed with shadow for better UX
+- No image/modal triggers on clicks
 
-**All steps completed.**
+## Original Steps:
+- [✅] Navbar updated with precise scroll offset (elementPosition - navbarHeight)
+- [✅] Tested: Sections now show fully on click (Home/About/Skills/Projects/Contact)
+- [✅] Mobile/desktop smooth scrolling confirmed
+- [✅] Dev server ready at http://localhost:5173
+
+**Test:** Click any navbar text → scrolls smoothly to top of section (fully visible).

@@ -30,7 +30,7 @@ const Footer = () => {
                     <FaFacebook size={30} /><a href='https://www.facebook.com/share/1JLnXd6Zgf/' target='_blank' rel='noopener noreferrer'>
                     www.facebook.com/Ritik.jha</a>
                 </li>
-                <a href=''target='_blank' rel=''>
+                 <a href='https://wa.me/9773657224'target='blank' rel=''>
                 <li className='flex gap-2 items-center'>
                     <HiPhone size={25} /> 
                     97736 57224
