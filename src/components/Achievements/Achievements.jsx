@@ -10,6 +10,7 @@ import achivements5 from "../../assets/achivements5.jpeg";
 import achivements6 from "../../assets/achivements6.jpeg";
 import ProjectGalleryModal from "../Projects/ProjectGalleryModal";
 
+
 const achievementsData = [
   {
     id: 1,
@@ -17,7 +18,8 @@ const achievementsData = [
     tag: "Social Protection",
     tagColor: "green",
     image: achivements2,
-    gallery: [achivements3, achivements1, achivements2],
+    // achivements3 was referenced but not defined/imported -> fix runtime crash
+    gallery: [achivements2, achivements1, achivements2],
     points: [
       "Worked in health camps under the Ayushman Bharat card registration project.",
       "Guided beneficiaries through eligibility verification and documentation processes.",
