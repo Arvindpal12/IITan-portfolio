@@ -35,14 +35,15 @@ const Projects = () => {
 
   return (
     <section
-      id="projects"
+      // id="projects"
       className="px-6 py-16 md:px-12 md:py-24 lg:px-24 bg-[#F7F7F7]"
     >
       <div className="mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           {/* Main Section Heading */}
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0e1946] mb-4">
+          <h2 id="projects" 
+          className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#0e1946] mb-4">
             Projects
           </h2>
 

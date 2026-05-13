@@ -30,11 +30,22 @@
   animation: bounce-slow 2s infinite;
 }
 
-/* Main content padding for fixed navbar */
+/* Main content spacing for fixed navbar (use CSS variables so it stays consistent) */
+:root {
+  --navbar-height: 90px;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+/* Push content below the fixed navbar */
 body > div:first-child {
-  padding-top: 90px;
+  padding-top: var(--navbar-height);
 }
+
+/* When using scrollTo/anchors, ensure sections don't sit under the fixed nav */
+#home {
+  scroll-margin-top: var(--navbar-height);
+}
+

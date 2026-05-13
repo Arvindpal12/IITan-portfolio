@@ -8,8 +8,8 @@ const Navbar = () => {
     const scrollToSection = useCallback((sectionId) => {
         const element = document.getElementById(sectionId);
         if (element) {
-            // Scroll to very top of section (0 offset for full view)
-            const elementPosition = element.offsetTop - 20; // Minimal offset
+            const navHeight = document.querySelector('nav')?.getBoundingClientRect().height ?? 90;
+            const elementPosition = element.offsetTop - navHeight - 8;
             window.scrollTo({
                 top: elementPosition,
                 behavior: 'smooth'
@@ -44,7 +44,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="flex items-center justify-between text-white px-4 sm:px-6 md:px-8 lg:px-20 py-3 md:py-4 bg-[#0e1946]/95 backdrop-blur-md fixed w-full top-0 z-50 shadow-2xl border-b border-white/20 transition-all duration-500 ease-out">
+        <nav className="flex items-center justify-between text-white px-4 sm:px-6 md:px-8 lg:px-20 py-3 md:py-4 bg-[#0e1946]/95 backdrop-blur-md fixed w-full top-0 z-50 shadow-2xl border-b border-white/20 transition-all duration-500 ease-out" style={{ height: '90px' }}>
             <div className="text-lg sm:text-xl md:text-2xl font-bold tracking-wide flex-shrink-0">Portfolio</div>
             
             {/* Desktop Menu */}

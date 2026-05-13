@@ -13,16 +13,17 @@ import ProjectGalleryModal from "../Projects/ProjectGalleryModal";
 const achievementsData = [
   {
     id: 1,
-    title: "Uttan Project",
-    tag: "Community Development",
+    title: "Ayushman Card Registration Project",
+    tag: "Social Protection",
     tagColor: "green",
-    image: uthanCover,
-    gallery: [uthanCover, achivements1, achivements2],
+    image: achivements2,
+    gallery: [achivements3, achivements1, achivements2],
     points: [
-      "Worked on community development and social awareness activities",
-      "Conducted field visits to identify local issues and connect with beneficiaries",
-      "Supported awareness programs related to education, health, and livelihood improvement",
-      "Coordinated with community members to ensure smooth project execution",
+      "Worked in health camps under the Ayushman Bharat card registration project.",
+      "Guided beneficiaries through eligibility verification and documentation processes.",
+      "Managed digital registration and Ayushman Card generation activities.",
+      "Conducted awareness campaigns regarding government health insurance benefits.",
+      "Successfully facilitated approximately 45,000 Ayushman Card registrations during the project period.",
     ],
   },
   {
@@ -41,7 +42,7 @@ const achievementsData = [
   },
   {
     id: 3,
-    title: "Child Marriage Awareness & Prevention",
+    title: "E-Shram Card Registration Project",
     tag: "Child Rights",
     tagColor: "purple",
     image: childCover,
@@ -129,14 +130,9 @@ const Achievements = () => {
                     {ach.tag}
                   </span>
                 </div>
-                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 text-gray-700 leading-relaxed">
-                  {ach.points.map((point, idx) => (
-                    <li key={idx} className="flex items-start gap-3 p-3 rounded-xl hover:bg-gray-50 transition-colors duration-300 group">
-                      <div className="w-3 h-3 md:w-3.5 md:h-3.5 bg-gradient-to-r from-[#455697] to-[#0e1946] rounded-full mt-2.5 flex-shrink-0 shadow-md group-hover:scale-110 transition-transform"></div>
-                      <span className="text-sm md:text-base lg:text-lg font-medium group-hover:text-[#0e1946]">{point}</span>
-                    </li>
-                  ))}
-                </ul>
+                <p className="text-gray-700 leading-relaxed text-sm md:text-base lg:text-lg">
+                  {ach.points.join(" ")}
+                </p>
               </div>
             </div>
           ))}
