@@ -44,7 +44,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className="flex items-center justify-between text-white px-4 sm:px-6 md:px-8 lg:px-20 py-3 md:py-4 bg-[#0e1946]/95 backdrop-blur-md fixed w-full top-0 z-50 shadow-2xl border-b border-white/20 transition-all duration-500 ease-out" style={{ height: '90px' }}>
+        <nav className="flex items-center justify-between text-white px-4 sm:px-6 md:px-8 lg:px-20 py-3 md:py-4 mt:[50px] bg-[#0e1946]/95 backdrop-blur-md fixed w-full top-0 z-50 shadow-2xl border-b border-white/20 transition-all duration-500 ease-out" style={{ height: '90px' }}>
             <div className="text-lg sm:text-xl md:text-2xl font-bold tracking-wide flex-shrink-0">Portfolio</div>
             
             {/* Desktop Menu */}
